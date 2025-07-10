@@ -141,3 +141,36 @@ nav{
 .contact-form textarea {
     min-height: 70px;
 }
+/* footer section */
+
+
+.hero-section {
+    text-align: center;
+    padding: 60px 0 40px 0;
+    /* background-color: rgba(78, 71, 255, 0.1); */
+}
+
+.hero-logo{
+    height: 100px;
+    margin-top: 150px;
+}
+
+
+.hero-desc{
+    color: #8987a1;
+    font-size: 1rem;
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+.hero-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.hero-menu span {
+    cursor: pointer;
+    
+    transition: color 0.2s;
+    color: #8987a1
+    
+  }
