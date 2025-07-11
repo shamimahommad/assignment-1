@@ -105,6 +105,42 @@ nav{
     color: #888ca1;
     font-size: 20px;
 }
+/* challenge /testimonial section */
+.testmonial-section{
+    /* background-color: red; */
+    margin: 40px auto;
+    text-align: center;
+
+}
+.testimonial-title{
+    font-family: Raleway;
+    font-size: 42px;
+    margin-bottom: 32px;
+}
+.testimonial-list {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+  }
+.testimonial-card{
+    background-color: white;
+    text-align: left;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(42, 41, 53, 0.04);
+    padding: 50px;
+
+
+}
+.testimonial-imgsectioon{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+.testimonial-heading{
+    font-size: 29px;
+    font-weight: bold;
+}
+
 /* better section */
 .better{
     background-color: white;
@@ -116,7 +152,7 @@ nav{
 .better-title{
     font-family: Raleway;
     font-size: 50px;
-    padding: 71px 312px 20px 312px;
+    padding: 71px 20px 20px;
 }
 .get-btn{
     font-size: 20px;
@@ -183,7 +219,7 @@ footer{
 
 .hero-logo{
     height: 100px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 
@@ -201,6 +237,6 @@ footer{
     cursor: pointer;
     text-decoration: none;
     transition: color 0.2s;
-    color: #8987a1
-    
+    color: #8987a1;
+    margin-bottom: 50px;
   }
