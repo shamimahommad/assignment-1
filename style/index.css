@@ -15,6 +15,10 @@ header{
     /* background-position: top left,bottom right; */
 }
 
+.btn-primary:hover{
+    background-color: #068ae2;
+    color: $offwhite;
+}
 .btn-primary{
     background-color: #4E47FF;
     color: white;
@@ -125,7 +129,7 @@ nav{
 .testimonial-card{
     background-color: white;
     text-align: left;
-    border-radius: 12px;
+    border-radius: 15px;
     box-shadow: 0 4px 16px rgba(42, 41, 53, 0.04);
     padding: 50px;
 
@@ -153,6 +157,11 @@ nav{
     font-family: Raleway;
     font-size: 50px;
     padding: 71px 20px 20px;
+}
+.better-subtitle{
+    font-family: Raleway;
+    color: #888ca1;
+    font-size: 14px;
 }
 .get-btn{
     font-size: 20px;
